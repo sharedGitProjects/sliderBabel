@@ -11,7 +11,7 @@ export default class SliderJS {
     this._width = 800;
     this._height = 400;
     this._playing = false;
-    this._linkBuilder = new LinkBuilder();
+    this._linkBuilder = LinkBuilder;
     this.init();
     this._touchState = {
       isActive: false, x: 0, y: 0, minDiff: 50,
