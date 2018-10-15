@@ -1,5 +1,5 @@
 export default class LinkBuilder {
-  buildLink(className, innerHTML, action) {
+  static buildLink(className, innerHTML, action) {
     const link = document.createElement('a');
     link.href = '#';
     link.classList.add('slidesjs-navigation');
