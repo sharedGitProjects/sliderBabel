@@ -1,9 +1,10 @@
 {
-    "parser": "babel-eslint",
-    "rules": {
-	    "linebreak-style": 0,
-		"no-underscore-dangle": 0,
-		"no-plusplus": 0
-	},
-    "extends": ["airbnb-base"]
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": 0,
+    "no-underscore-dangle": 0,
+    "no-plusplus": 0
+  },
+  "extends": ["airbnb-base"],
+  "env": { "browser": true }
 }
